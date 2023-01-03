@@ -1,13 +1,13 @@
 import Math from "../math/math"
 
-const OPERATIONS = {
+export const OPERATIONS = {
     sum: '+',
     substract: '-',
     multiply: '*',
     divison: '/'
 }
 
-export default function calculate(a: number, b: number, operation: string): number {
+export function calculate(a: number, b: number, operation: string): number {
     let result: number = 0
     let math = new Math()
 

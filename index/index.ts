@@ -1,4 +1,4 @@
-import calculate from "../calculator/calculator"
+import {calculate, OPERATIONS} from "../calculator/calculator"
 
 const $numberA = <HTMLInputElement>document.querySelector('.js-num-a')
 const $numberB = <HTMLInputElement>document.querySelector('.js-num-b')

@@ -1,11 +1,11 @@
 import Math from "../math/math";
-const OPERATIONS = {
+export const OPERATIONS = {
     sum: '+',
     substract: '-',
     multiply: '*',
     divison: '/'
 };
-export default function calculate(a, b, operation) {
+export function calculate(a, b, operation) {
     let result = 0;
     let math = new Math();
     switch (operation) {
