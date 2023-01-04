@@ -1,5 +1,5 @@
-import Math from "../math/math";
-export const OPERATIONS = {
+import Math from "../math/math.js";
+const OPERATIONS = {
     sum: '+',
     substract: '-',
     multiply: '*',

@@ -1,6 +1,6 @@
-import Math from "../math/math"
+import Math from "../math/math.js"
 
-export const OPERATIONS = {
+const OPERATIONS = {
     sum: '+',
     substract: '-',
     multiply: '*',

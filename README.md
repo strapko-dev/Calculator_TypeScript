@@ -1,1 +1,0 @@
-I can't understand why this is app not working. I think typescript shoud use with server, so i'll back later for chek this project. (when i learn node js)

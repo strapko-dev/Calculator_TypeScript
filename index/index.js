@@ -1,4 +1,4 @@
-import { calculate } from "../calculator/calculator";
+import { calculate } from "../calculator/calculator.js";
 const $numberA = document.querySelector('.js-num-a');
 const $numberB = document.querySelector('.js-num-b');
 const $select = document.querySelector('.js-select');
